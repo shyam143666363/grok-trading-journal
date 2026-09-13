@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "eligible_instruments": ["BTCUSD", "ETHUSD"],
+  "eligible_markets": ["Crypto"],
+  "trading_sessions_utc": ["00:00-23:59"],
+  "entry_conditions": ["trend_filter", "min_liquidity", "session_window"],
+  "exit_conditions": ["stop_loss_hit", "take_profit_hit", "time_based_exit_24h"],
+  "stop_loss_method": "ATR-based, 1.5x 14-period ATR",
+  "take_profit_method": "2:1 reward-to-risk minimum",
+  "min_ev": 5,
+  "min_liquidity_usd": 100000,
+  "max_spread_pct": 0.5,
+  "min_confidence": 0.55,
+  "max_volatility_pct": 5,
+  "max_simultaneous_positions": 3,
+  "no_trade_conditions": ["data_unavailable", "spread_exceeded", "liquidity_below_minimum"],
+  "immediate_exit_conditions": ["emergency_stop_active", "platform_disconnected"],
+  "trading_stop_conditions": ["daily_loss_limit_hit", "consecutive_losses_exceeded"]
+}
