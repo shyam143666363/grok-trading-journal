@@ -1,57 +1,24 @@
 {
-  "last_cycle_at": "2026-09-14T12:50:00Z",
-  "last_cycle_id": "scalp-usdjpy-10489178588",
-  "mode": "SCALP",
-  "open_positions": [
-    {
-      "ticket": "10489178588",
-      "instrument": "USDJPY",
-      "side": "Buy",
-      "lots": 0.26,
-      "entry": 154.736,
-      "sl": 154.64,
-      "tp": 154.89,
-      "opened_at": "2026-09-14T12:49Z",
-      "mode": "SCALP",
-      "risk_to_sl_usd_est": 16.14,
-      "risk_formula": "lots*pips*(1000/mid)"
-    }
-  ],
+  "last_cycle_at": "2026-09-14T15:03:00Z",
+  "last_cycle_id": "usdjpy-10489178588-close-win",
+  "mode": "SCALP_HOLD",
+  "balance": 5005.08,
+  "open_positions": [],
   "pending_orders": [],
   "awaiting": [],
-  "skipped": [
-    "AUDUSD"
-  ],
+  "hold_no_fill": ["GBPUSD", "USDCHF"],
+  "skipped": ["AUDUSD"],
   "closed_today": [
-    {
-      "ticket": "10487820600",
-      "instrument": "EURUSD",
-      "reason": "resized",
-      "replaced_by": "10488098708"
-    },
-    {
-      "ticket": "10488098708",
-      "instrument": "EURUSD",
-      "side": "Buy",
-      "lots": 0.12,
-      "realized_pnl_usd": -20.52,
-      "reason": "scalp_flip_close"
-    },
-    {
-      "ticket": "10488980055",
-      "instrument": "GBPUSD",
-      "side": "Sell",
-      "order_type": "Sell Limit",
-      "lots": 0.31,
-      "reason": "cancelled_unfilled",
-      "realized_pnl_usd": 0
-    }
+    {"ticket": "10487820600", "instrument": "EURUSD", "reason": "resized", "replaced_by": "10488098708"},
+    {"ticket": "10488098708", "instrument": "EURUSD", "side": "Buy", "lots": 0.12, "realized_pnl_usd": -20.52, "reason": "scalp_flip_close"},
+    {"ticket": "10488980055", "instrument": "GBPUSD", "reason": "cancelled_unfilled", "realized_pnl_usd": 0},
+    {"ticket": "10489178588", "instrument": "USDJPY", "side": "Buy", "lots": 0.26, "realized_pnl_usd": 25.60, "result": "win", "pnl_note": "inferred from balance bridge"}
   ],
-  "consecutive_losses": 1,
-  "daily_pnl": -20.52,
+  "consecutive_losses": 0,
+  "daily_pnl": 5.08,
   "daily_pnl_date": "2026-09-14",
-  "day_risk_used_usd": 20.52,
-  "open_risk_usd_est": 16.14,
-  "day_risk_remaining_usd": 79.48,
-  "counter": 6
+  "day_risk_used_usd": 0,
+  "open_risk_usd_est": 0,
+  "day_risk_remaining_usd": 100,
+  "counter": 7
 }
