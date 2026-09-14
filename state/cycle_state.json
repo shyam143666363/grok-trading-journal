@@ -1,22 +1,19 @@
 {
-  "last_cycle_at": "2026-09-14T12:43:00Z",
-  "last_cycle_id": "scalp-gbpusd-10488980055",
+  "last_cycle_at": "2026-09-14T12:45:00Z",
+  "last_cycle_id": "scalp-gbp-cancel-await-usdjpy",
   "mode": "SCALP",
   "open_positions": [],
-  "pending_orders": [
+  "pending_orders": [],
+  "awaiting": [
     {
-      "ticket": "10488980055",
-      "instrument": "GBPUSD",
-      "side": "Sell",
-      "order_type": "Sell Limit",
-      "lots": 0.31,
-      "limit_price": 1.3516,
-      "sl": 1.3524,
-      "tp": 1.3500,
-      "status": "pending",
+      "instrument": "USDJPY",
+      "side": "Buy",
+      "lots": 0.26,
+      "status": "await_ticket",
       "mode": "SCALP"
     }
   ],
+  "skipped": ["AUDUSD"],
   "closed_today": [
     {
       "ticket": "10487820600",
@@ -31,6 +28,15 @@
       "lots": 0.12,
       "realized_pnl_usd": -20.52,
       "reason": "scalp_flip_close"
+    },
+    {
+      "ticket": "10488980055",
+      "instrument": "GBPUSD",
+      "side": "Sell",
+      "order_type": "Sell Limit",
+      "lots": 0.31,
+      "reason": "cancelled_unfilled",
+      "realized_pnl_usd": 0
     }
   ],
   "consecutive_losses": 1,
@@ -38,6 +44,5 @@
   "daily_pnl_date": "2026-09-14",
   "day_risk_used_usd": 20.52,
   "day_risk_remaining_usd": 79.48,
-  "counter": 4,
-  "blocked_until_controller": ["USDJPY", "AUDUSD"]
+  "counter": 5
 }
