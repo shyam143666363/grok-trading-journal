@@ -1,18 +1,23 @@
 {
-  "last_cycle_at": "2026-09-14T12:45:00Z",
-  "last_cycle_id": "scalp-gbp-cancel-await-usdjpy",
+  "last_cycle_at": "2026-09-14T12:49:00Z",
+  "last_cycle_id": "scalp-usdjpy-10489178588",
   "mode": "SCALP",
-  "open_positions": [],
-  "pending_orders": [],
-  "awaiting": [
+  "open_positions": [
     {
+      "ticket": "10489178588",
       "instrument": "USDJPY",
       "side": "Buy",
       "lots": 0.26,
-      "status": "await_ticket",
-      "mode": "SCALP"
+      "entry": 154.736,
+      "sl": 154.640,
+      "tp": 154.890,
+      "opened_at": "2026-09-14T12:49Z",
+      "mode": "SCALP",
+      "risk_to_sl_usd_est": 24.96
     }
   ],
+  "pending_orders": [],
+  "awaiting": [],
   "skipped": ["AUDUSD"],
   "closed_today": [
     {
@@ -43,6 +48,7 @@
   "daily_pnl": -20.52,
   "daily_pnl_date": "2026-09-14",
   "day_risk_used_usd": 20.52,
+  "open_risk_usd_est": 24.96,
   "day_risk_remaining_usd": 79.48,
-  "counter": 5
+  "counter": 6
 }
