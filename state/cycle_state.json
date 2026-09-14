@@ -1,5 +1,5 @@
 {
-  "last_cycle_at": "2026-09-14T12:49:00Z",
+  "last_cycle_at": "2026-09-14T12:50:00Z",
   "last_cycle_id": "scalp-usdjpy-10489178588",
   "mode": "SCALP",
   "open_positions": [
@@ -9,16 +9,19 @@
       "side": "Buy",
       "lots": 0.26,
       "entry": 154.736,
-      "sl": 154.640,
-      "tp": 154.890,
+      "sl": 154.64,
+      "tp": 154.89,
       "opened_at": "2026-09-14T12:49Z",
       "mode": "SCALP",
-      "risk_to_sl_usd_est": 24.96
+      "risk_to_sl_usd_est": 16.14,
+      "risk_formula": "lots*pips*(1000/mid)"
     }
   ],
   "pending_orders": [],
   "awaiting": [],
-  "skipped": ["AUDUSD"],
+  "skipped": [
+    "AUDUSD"
+  ],
   "closed_today": [
     {
       "ticket": "10487820600",
@@ -48,7 +51,7 @@
   "daily_pnl": -20.52,
   "daily_pnl_date": "2026-09-14",
   "day_risk_used_usd": 20.52,
-  "open_risk_usd_est": 24.96,
+  "open_risk_usd_est": 16.14,
   "day_risk_remaining_usd": 79.48,
   "counter": 6
 }
