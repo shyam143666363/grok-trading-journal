@@ -1,8 +1,9 @@
 {
-  "last_cycle_at": null,
+  "last_cycle_at": "2026-09-14T10:46:00Z",
   "last_cycle_id": null,
   "open_positions": [],
   "consecutive_losses": 0,
   "daily_pnl": 0,
-  "daily_pnl_date": null
+  "daily_pnl_date": null,
+  "counter": 1
 }
