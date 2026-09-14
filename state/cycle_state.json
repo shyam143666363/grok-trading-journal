@@ -1,31 +1,43 @@
 {
-  "last_cycle_at": "2026-09-14T12:18:00Z",
-  "last_cycle_id": "eurusd-10488098708",
-  "open_positions": [
+  "last_cycle_at": "2026-09-14T12:43:00Z",
+  "last_cycle_id": "scalp-gbpusd-10488980055",
+  "mode": "SCALP",
+  "open_positions": [],
+  "pending_orders": [
     {
-      "ticket": "10488098708",
-      "instrument": "EURUSD",
-      "side": "Buy",
-      "lots": 0.12,
-      "entry": 1.15481,
-      "sl": 1.15310,
-      "tp": 1.15710,
-      "opened_at": "2026-09-14T12:17Z",
-      "replaces": "10487820600"
+      "ticket": "10488980055",
+      "instrument": "GBPUSD",
+      "side": "Sell",
+      "order_type": "Sell Limit",
+      "lots": 0.31,
+      "limit_price": 1.3516,
+      "sl": 1.3524,
+      "tp": 1.3500,
+      "status": "pending",
+      "mode": "SCALP"
     }
   ],
   "closed_today": [
     {
       "ticket": "10487820600",
       "instrument": "EURUSD",
-      "side": "Buy",
-      "lots": 0.01,
       "reason": "resized",
       "replaced_by": "10488098708"
+    },
+    {
+      "ticket": "10488098708",
+      "instrument": "EURUSD",
+      "side": "Buy",
+      "lots": 0.12,
+      "realized_pnl_usd": -20.52,
+      "reason": "scalp_flip_close"
     }
   ],
-  "consecutive_losses": 0,
-  "daily_pnl": 0,
+  "consecutive_losses": 1,
+  "daily_pnl": -20.52,
   "daily_pnl_date": "2026-09-14",
-  "counter": 3
+  "day_risk_used_usd": 20.52,
+  "day_risk_remaining_usd": 79.48,
+  "counter": 4,
+  "blocked_until_controller": ["USDJPY", "AUDUSD"]
 }
