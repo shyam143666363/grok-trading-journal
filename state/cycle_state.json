@@ -1,18 +1,50 @@
 {
-  "last_cycle_at": "2026-09-14T15:03:00Z",
-  "last_cycle_id": "usdjpy-10489178588-close-win",
+  "last_cycle_at": "2026-09-14T16:01:19Z",
+  "last_cycle_id": "usdjpy-10489178588-tp",
   "mode": "SCALP_HOLD",
   "balance": 5005.08,
   "open_positions": [],
   "pending_orders": [],
   "awaiting": [],
-  "hold_no_fill": ["GBPUSD", "USDCHF"],
-  "skipped": ["AUDUSD"],
+  "hold_no_fill": [
+    "GBPUSD",
+    "USDCHF"
+  ],
+  "skipped": [
+    "AUDUSD"
+  ],
   "closed_today": [
-    {"ticket": "10487820600", "instrument": "EURUSD", "reason": "resized", "replaced_by": "10488098708"},
-    {"ticket": "10488098708", "instrument": "EURUSD", "side": "Buy", "lots": 0.12, "realized_pnl_usd": -20.52, "reason": "scalp_flip_close"},
-    {"ticket": "10488980055", "instrument": "GBPUSD", "reason": "cancelled_unfilled", "realized_pnl_usd": 0},
-    {"ticket": "10489178588", "instrument": "USDJPY", "side": "Buy", "lots": 0.26, "realized_pnl_usd": 25.60, "result": "win", "pnl_note": "inferred from balance bridge"}
+    {
+      "ticket": "10487820600",
+      "instrument": "EURUSD",
+      "reason": "resized",
+      "replaced_by": "10488098708"
+    },
+    {
+      "ticket": "10488098708",
+      "instrument": "EURUSD",
+      "side": "Buy",
+      "lots": 0.12,
+      "realized_pnl_usd": -20.52,
+      "reason": "scalp_flip_close"
+    },
+    {
+      "ticket": "10488980055",
+      "instrument": "GBPUSD",
+      "reason": "cancelled_unfilled",
+      "realized_pnl_usd": 0
+    },
+    {
+      "ticket": "10489178588",
+      "instrument": "USDJPY",
+      "side": "Buy",
+      "lots": 0.26,
+      "realized_pnl_usd": 25.85,
+      "result": "win",
+      "exit": 154.89,
+      "close_reason": "TP-hit",
+      "closed_at": "2026-09-14T16:01:19"
+    }
   ],
   "consecutive_losses": 0,
   "daily_pnl": 5.08,
