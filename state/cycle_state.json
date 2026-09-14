@@ -1,20 +1,31 @@
 {
-  "last_cycle_at": "2026-09-14T12:08:00Z",
-  "last_cycle_id": "eurusd-10487820600",
+  "last_cycle_at": "2026-09-14T12:18:00Z",
+  "last_cycle_id": "eurusd-10488098708",
   "open_positions": [
+    {
+      "ticket": "10488098708",
+      "instrument": "EURUSD",
+      "side": "Buy",
+      "lots": 0.12,
+      "entry": 1.15481,
+      "sl": 1.15310,
+      "tp": 1.15710,
+      "opened_at": "2026-09-14T12:17Z",
+      "replaces": "10487820600"
+    }
+  ],
+  "closed_today": [
     {
       "ticket": "10487820600",
       "instrument": "EURUSD",
       "side": "Buy",
       "lots": 0.01,
-      "entry": 1.15517,
-      "sl": 1.15310,
-      "tp": 1.15710,
-      "opened_at": "2026-09-14T12:06Z"
+      "reason": "resized",
+      "replaced_by": "10488098708"
     }
   ],
   "consecutive_losses": 0,
   "daily_pnl": 0,
   "daily_pnl_date": "2026-09-14",
-  "counter": 2
+  "counter": 3
 }
